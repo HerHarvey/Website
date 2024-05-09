@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiries</title>
+    <link rel="stylesheet" href="../CSS/enquires.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Enquiries</h1>
+            <nav>
+                <ul>
+                    <li><a href="../../admin.html">Dashboard</a></li>
+                    <li><a href="../HTML/agents.html">Available Rooms</a></li>
+                    <li><a href="../HTML/checkout.html">Checkouts</a></li>
+                    <li><a href="../HTML/enquires.html">Enquiries</a></li>
+                    <li><a href="../HTML/payment.html">Payments</a></li>
+                    <li><a href="../HTML/reports.html">Reports</a></li>
+                    <li><a href="../HTML/agents.html">Agents</a></li>
+                    <li><a href="../HTML/settings.html">Settings</a></li>
+                    <li><a href="../../home.html">Homepage</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="enquiry-form">
+                <h2>Submit an Enquiry</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

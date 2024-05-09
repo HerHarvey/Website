@@ -1,0 +1,35 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../Pictures/BG.jpg"); /* Background image of the hotel */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set height to full viewport height */
+    color: #fff; /* White text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #00bfff; /* White button background */
+    color: #FFF; /* Blue button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid #00BFFF; /* Blue border */
+}
+
+.btn:hover {
+    background-color: #fff; /* Blue color on hover */
+    color: #00BFFF; /* White text color on hover */
+}

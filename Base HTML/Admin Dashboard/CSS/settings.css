@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../../../../../Documents/Website/Pictures/BG.jpg"); /* Background image of the hotel */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#settings-form {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent white background color for the settings form section */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    max-width: 600px; /* Adjust width for the settings form section */
+    margin: 0 auto 20px; /* Center the settings form section horizontally with bottom margin */
+}
+
+#settings-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="text"]:focus,
+form input[type="tel"]:focus,
+form input[type="email"]:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border color when focused */
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional Sections */
+section {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent white background color for additional sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    max-width: 600px; /* Adjust width for the additional sections */
+    margin: 0 auto 20px; /* Center the additional sections horizontally with bottom margin */
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}

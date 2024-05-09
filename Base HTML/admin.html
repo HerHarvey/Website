@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../Base CSS/admin.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <ul>
+                    <li><a href="../Base HTML/admin.html">Dashboard</a></li>
+                    <li><a href="../Base HTML/Admin Dashboard/HTML/availrooms.html">Available Rooms</a></li>
+                    <li><a href="../Base HTML/Admin Dashboard/HTML/checkout.html">Checkouts</a></li>
+                    <li><a href="../Base HTML/Admin Dashboard/HTML/enquires.html">Enquiries</a></li>
+                    <li><a href="../Base HTML/Admin Dashboard/HTML/payment.html">Payments</a></li>
+                    <li><a href="../Base HTML/Admin Dashboard/HTML/reports.html">Reports</a></li>
+                    <li><a href="../Base HTML/Admin Dashboard/HTML/agents.html">Agents</a></li>
+                    <li><a href="../Base HTML/Admin Dashboard/HTML/settings.html">Settings</a></li>
+                    <li><a href="../Base HTML/home.html">Homepage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Dashboard content goes here -->
+        <section id="dashboard-boxes">
+            <!-- Initial 5 boxes -->
+            <div class="dashboard-box">
+                <!-- Box content goes here -->
+                <h2>Available Rooms</h2>
+                <p>Number of available rooms: <span id="available-rooms">10</span></p>
+                <a href="../Base HTML/Admin Dashboard/HTML/availrooms.html" class="view-details">View Details</a>
+            </div>
+            <!-- Repeat for other 4 boxes -->
+            <div class="dashboard-box">
+                <!-- Box content goes here -->
+                <h2>Today's Checkouts</h2>
+                <p>Number of checkouts today: <span id="today-checkouts">5</span></p>
+                <a href="../Base HTML/Admin Dashboard/HTML/checkout.html" class="view-details">View Details</a>
+            </div>
+            <div class="dashboard-box">
+                <!-- Box content goes here -->
+                <h2>Cancellations</h2>
+                <p>Number of cancellations: <span id="cancellations">3</span></p>
+                <a href="../Base HTML/Admin Dashboard/HTML/payment.html" class="view-details">View Details</a>
+            </div>
+            <div class="dashboard-box">
+                <!-- Box content goes here -->
+                <h2>Enquiries</h2>
+                <p>Number of recent enquiries: <span id="enquiries">7</span></p>
+                <a href="../Base HTML/Admin Dashboard/HTML/enquires.html" class="view-details">View Details</a>
+            </div>
+            <div class="dashboard-box">
+                <!-- Box content goes here -->
+                <h2>Pending Payments</h2>
+                <p>Number of pending payments: <span id="pending-payments">2</span></p>
+                <a href="../Base HTML/Admin Dashboard/HTML/payment.html" class="view-details">View Details</a>
+            </div>
+        </section>
+
+        <!-- Additional boxes -->
+        <section id="additional-boxes">
+            <!-- Recent Enquiries box -->
+            <div class="additional-box">
+                <!-- Box content goes here -->
+                <h2>Recent Enquiries</h2>
+                <!-- Enquiry list goes here -->
+                <ul>
+                    <li><img src="../Pictures/user.jpg" alt="User 1"><span>User 1 - Booking Enquiry</span></li>
+                    <li><img src="../Pictures/user.jpg" alt="User 2"><span>User 2 - Cancellation Enquiry</span></li>
+                    <li><img src="../Pictures/user.jpg" alt="User 3"><span>User 3 - Order Enquiry</span></li>
+                    <li><img src="../Pictures/user.jpg" alt="User 4"><span>User 4 - Reservation Enquiry</span></li>
+                    <!-- Add more list items as needed -->
+                </ul>
+                <a href="../Base HTML/Admin Dashboard/HTML/enquires.html" class="view-details">View Details</a>
+            </div>
+
+            <!-- Booking Status box -->
+            <div class="additional-box">
+                <!-- Box content goes here -->
+                <h2>Booking Status</h2>
+                <!-- Booking graph or statistics goes here -->
+                <img src="../Pictures/grapjs.jpg" alt="Graph's Year">
+                <a href="../Pictures/statistics.png" class="view-details">View Details</a>
+            </div>
+        </section>
+
+        <!-- Room and Booking Details boxes -->
+        <section id="room-details">
+            <!-- Room boxes -->
+            <div class="room-box">
+                <!-- Room content goes here -->
+                <img src="../Pictures/Deluxe.jpg" alt="Room 1">
+                <h3>Luxury Room</h3>
+                <p>Price per night: $200</p>
+                <p>Number of rooms available: 5</p>
+                <a href="../Base HTML/Admin Dashboard/HTML/availrooms.html" class="view-details">View Details</a>
+            </div>
+            <div class="room-box">
+                <!-- Room content goes here -->
+                <img src="../Pictures/Deluxe.jpg" alt="Room 2">
+                <h3>Deluxe Suite</h3>
+                <p>Price per night: $300</p>
+                <p>Number of rooms available: 3</p>
+                <a href="../Pictures/Deluxe.jpg" class="view-details">View Details</a>
+            </div>
+            <div class="room-box">
+                <!-- Room content goes here -->
+                <img src="C:\Users\admin\Documents\Website\Pictures\gallery3.jpg" alt="Room 3">
+                <h3>Premium Villa</h3>
+                <p>Price per night: $500</p>
+                <p>Number of rooms available: 2</p>
+                <a href="../Base HTML/Admin Dashboard/HTML/availrooms.html" class="view-details">View Details</a>
+            </div>
+        </section>
+
+        <!-- Booking details box -->
+        <section id="booking-details">
+            <!-- Booking content goes here -->
+            <h2>Booking Details</h2>
+            <!-- Booking details table goes here -->
+            <table>
+                <tr>
+                    <th>Booking Date</th>
+                    <th>Customer</th>
+                    <th>Persons</th>
+                    <th>Phone</th>
+                    <th>Check-in</th>
+                    <th>Check-out</th>
+                    <th>Payment</th>
+                </tr>
+                <tr>
+                    <td>2024-04-30</td>
+                    <td>Harvey Crisologo</td>
+                    <td>2</td>
+                    <td>123-456-789</td>
+                    <td>2024-05-01</td>
+                    <td>2024-05-03</td>
+                    <td>Paid</td>
+                </tr>
+                <tr>
+                    <td>2024-04-30</td>
+                    <td>Natalie Nicole</td>
+                    <td>7</td>
+                    <td>123-456-789</td>
+                    <td>2024-05-06</td>
+                    <td>2024-05-09</td>
+                    <td>Reserved</td>
+                </tr>
+                <tr>
+                    <td>2024-04-30</td>
+                    <td>Camille Comcom</td>
+                    <td>4</td>
+                    <td>123-456-789</td>
+                    <td>2024-05-11</td>
+                    <td>2024-05-13</td>
+                    <td>Paid</td>
+                </tr>
+                <tr>
+                    <td>2024-04-30</td>
+                    <td>Ron Formento</td>
+                    <td>2</td>
+                    <td>123-456-789</td>
+                    <td>2024-05-21</td>
+                    <td>2024-05-23</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>2024-04-30</td>
+                    <td>Zyrine Lopez</td>
+                    <td>4</td>
+                    <td>123-456-789</td>
+                    <td>2024-05-18</td>
+                    <td>2024-05-19</td>
+                    <td>Cancelled</td>
+                </tr>
+                <tr>
+                    <td>2024-04-30</td>
+                    <td>Shyrylle Encinas</td>
+                    <td>5</td>
+                    <td>123-456-789</td>
+                    <td>2024-05-11</td>
+                    <td>2024-05-13</td>
+                    <td>Paid</td>
+                </tr>
+                <tr>
+                    <td>2024-04-30</td>
+                    <td>Gloven Ng</td>
+                    <td>3</td>
+                    <td>123-456-789</td>
+                    <td>2024-05-01</td>
+                    <td>2024-05-03</td>
+                    <td>Cancelled</td>
+                </tr>
+                <tr>
+                    <td>2024-04-30</td>
+                    <td>Jessele Fugaban</td>
+                    <td>1</td>
+                    <td>123-456-789</td>
+                    <td>2024-05-21</td>
+                    <td>2024-05-23</td>
+                    <td>Pending</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </table>
+        </section>
+    </main>
+</body>
+</html>

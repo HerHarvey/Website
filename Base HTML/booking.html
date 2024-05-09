@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Haven - Book a Reservation</title>
+    <link rel="stylesheet" href="../Base CSS/booking.css"> <!-- Link to the CSS file -->
+</head>
+
+<body>
+    <header>
+        <!-- Header content goes here -->
+        <h1>Book Your Stay at Lumina Haven</h1>
+        <p>Your Perfect Escape Awaits</p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="booking.html">Bookings</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Main content goes here -->
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="checkin-date">Check-In Date</label>
+                <input type="date" id="checkin-date" name="checkin-date" required>
+            </div>
+            <div class="form-group">
+                <label for="checkout-date">Check-Out Date</label>
+                <input type="date" id="checkout-date" name="checkout-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Room Type</label>
+                <select id="room-type" name="room-type" required>
+                    <option value="Luxury Room">₱1000 per night - Luxury Room</option>
+                    <option value="Deluxe Suite">₱2000 per night - Deluxe Suite</option>
+                    <option value="Premium Villa">₱3000 per night - Premium Villa</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="payment-method">Payment Method</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="Credit Card">Credit Card</option>
+                    <option value="Debit Card">Debit Card</option>
+                    <option value="PayPal">PayPal</option>
+                    <option value="Bank Transfer">Bank Transfer</option>
+                    <option value="G-Cash">G-Cash</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="picture">Upload Picture</label>
+                <input type="file" id="picture" name="picture" accept="image/*" required>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+        <p>&copy; 2024 Lumina Haven. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../Pictures/BG.jpg"); /* Background image of the hotel */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set height to full viewport height */
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Add blur effect */
+    border-radius: 15px; /* Rounded edges */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+.main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; /* White text color for labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white input background */
+    color: #333; /* Dark text color */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5); /* Lighter transparent white input background on focus */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #87CEEB; /* Sky blue button background */
+    color: #fff; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #5F9EA0; /* Darker sky blue button background on hover */
+}
+
+/* Footer styles */
+footer {
+    position: fixed; /* Fix footer at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Add blur effect */
+    border-radius: 15px; /* Rounded edges */
+    color: #fff; /* White text color */
+}

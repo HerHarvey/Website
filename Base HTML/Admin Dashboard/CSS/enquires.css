@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../../../../../Documents/Website/Pictures/BG.jpg"); /* Background image of the hotel */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+
+#enquiry-form {
+    background-color: rgba(0, 0, 0, 0.7);  /* Semi-transparent white background color for the form section */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    max-width: 400px; /* Adjust width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+#enquiry-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px; /* Adjust the height of the textarea */
+}
+
+form button {
+    width: 100%; /* Make the button full width */
+    padding: 10px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
